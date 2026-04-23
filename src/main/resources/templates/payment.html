@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thanh toán</title>
+</head>
+<body>
+<h2>Thanh toán đơn hàng</h2>
+<form action="/payment" method="post">
+    Order ID: <input type="text" name="orderId"><br>
+    Wallet ID: <input type="text" name="walletId"><br>
+    Amount: <input type="text" name="amount"><br>
+    <button type="submit">Thanh toán</button>
+</form>
+</body>
+</html>
